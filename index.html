@@ -1,0 +1,50 @@
+
+
+
+<!--
+write valid and semantic HTML that includes a form that has the following fields
+
+Email
+Password
+Github Username
+Radio buttons with the following options: Enterprise, Pro, Free
+A checkbox with the words "Remember Me" next to it. -->
+
+<!DOCTYPE html>
+
+<html>
+<body>
+
+<header>
+  <h1> My Page </h1>
+</header>
+
+<main>
+  <form>
+    <section>
+      <input type="text" name="Email" value="" placeholder="Please enter your email address."><br>
+      <input type="text" name="Password" value="" placeholder="Gimme your password."><br>
+      <input type="text" name="Github Username" value="" placeholder="Github!">
+    </section>
+
+    <section>
+    <input type="radio" name="subscription" value="Enterprise">Enterprise<br>
+    <input type="radio" name="subscription" value="Pro">Pro<br>
+    <input type="radio" name="subscription" value="Free">Free<br>
+    </section>
+
+    <section>
+    <input type="checkbox" name="rememberance" value="Remember Me"> Remember Me!
+    </section>
+
+    <input type="hidden" name="secret" value="Hi Wes! *waves*">
+
+  </form>
+</main>
+
+<footer>
+  <h6>I'm out.</h6>
+</footer>
+
+</body>
+</html>
