@@ -15,25 +15,31 @@
 <main>
   <form>
     <section>
-    <label name="subscription">Please Select Your Subscription Level<br>
-    <input type="radio" name="subscription" value="Enterprise">Enterprise
-    <input type="radio" name="subscription" value="Pro">Pro
-    <input type="radio" name="subscription" value="Free">Free
-    </label>
+      Email: <input type="email" name="email" placeholder="enter email address"><br>
+      Password: <input type="text" name="password" placeholder="enter password"><br>
+      Github: <input type="text" name="github" placeholder="enter github username"><br>
+      <br>
     </section>
-<br>
     <section>
-    <label name="rememberance">What to Remember<br>
-    <input type="checkbox" name="rememberance" value="Remember Me"> Remember Me!
-    <input type="checkbox" name="rememberance" value="Remember Someone Else"> Remember Someone Else
-    <input type="checkbox" name="rememberance" value="Remember The Other Thing!"> Remember The Other Thing!
+      <label name="subscription">Please Select Your Subscription Level<br>
+      <input type="radio" name="subscription" value="Enterprise">Enterprise
+      <input type="radio" name="subscription" value="Pro">Pro
+      <input type="radio" name="subscription" value="Free">Free
     </label>
     </section>
-<br>
+      <br>
+    <section>
+      <label name="rememberance">What to Remember<br>
+      <input type="checkbox" name="rememberance" value="Remember Me"> Remember Me!
+      <input type="checkbox" name="rememberance" value="Remember Someone Else"> Remember Someone Else
+      <input type="checkbox" name="rememberance" value="Remember The Other Thing!"> Remember The Other Thing!
+    </label>
+    </section>
+      <br>
     <label>
-    Submit!<br>
-    <input type="submit">
-    <input type="hidden" name="secret" value="Hi Wes! *waves*">
+      Submit!<br>
+      <input type="submit">
+      <input type="hidden" name="secret" value="Hi Wes! *waves*">
     </label>
   </form>
 </main>
