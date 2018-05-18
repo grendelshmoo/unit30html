@@ -1,7 +1,12 @@
 <!DOCTYPE html>
+<!-- I'll remove <br> tags after I get a little more experience with CSS. :)  -->
 
 <html>
 <body>
+
+  <head>
+    <title>Whut Up</title>
+  </head>
 
 <header>
   <h1> My Page </h1>
@@ -10,24 +15,26 @@
 <main>
   <form>
     <section>
-      <input type="email" name="Email" value="" placeholder="Please enter your email address."><br>
-      <input type="password" name="Password" value="" placeholder="Gimme your password."><br>
-      <input type="text" name="Github Username" value="" placeholder="Github!">
-
+    <label name="subscription">Please Select Your Subscription Level<br>
+    <input type="radio" name="subscription" value="Enterprise">Enterprise
+    <input type="radio" name="subscription" value="Pro">Pro
+    <input type="radio" name="subscription" value="Free">Free
+    </label>
     </section>
-
+<br>
     <section>
-    <input type="radio" name="subscription" value="Enterprise">Enterprise<br>
-    <input type="radio" name="subscription" value="Pro">Pro<br>
-    <input type="radio" name="subscription" value="Free">Free<br>
-    </section>
-
-    <section>
+    <label name="rememberance">What to Remember<br>
     <input type="checkbox" name="rememberance" value="Remember Me"> Remember Me!
+    <input type="checkbox" name="rememberance" value="Remember Someone Else"> Remember Someone Else
+    <input type="checkbox" name="rememberance" value="Remember The Other Thing!"> Remember The Other Thing!
+    </label>
     </section>
-
+<br>
+    <label>
+    Submit!<br>
+    <input type="submit">
     <input type="hidden" name="secret" value="Hi Wes! *waves*">
-
+    </label>
   </form>
 </main>
 
